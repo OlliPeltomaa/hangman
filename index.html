@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"/>
+        <link rel="stylesheet" href="hang.css" type="text/css">
+        <title>Hangman</title>
+    </head>
+    <body>
+        <div id="home"><a href="../">&lt;Olli/&gt;</a></div>
+        <h3 id="hint"></h3>
+        <div id="menu">
+            <h1 id="head">HANGMAN</h1>
+            <p>Arvaa oikea sana vihjeen perusteella. Neljästä väärästä kirjaimesta häviät pelin!</p>
+        </div>
+        <div id="canvas" style="display: none;">
+            <img id="image">
+        </div>
+        <h3 id="result" style="display: none;"></h3>
+        <div id="container"></div>
+        <div id="start" onclick="startGame()">Pelaa</div>
+        <div id="letters" style="display: none;">
+            <div class="button" onclick="handleClick(this.textContent)">A</div>
+            <div class="button" onclick="handleClick(this.textContent)">B</div>
+            <div class="button" onclick="handleClick(this.textContent)">C</div>
+            <div class="button" onclick="handleClick(this.textContent)">D</div>
+            <div class="button" onclick="handleClick(this.textContent)">E</div>
+            <div class="button" onclick="handleClick(this.textContent)">F</div>
+            <div class="button" onclick="handleClick(this.textContent)">G</div>
+            <div class="button" onclick="handleClick(this.textContent)">H</div>
+            <div class="button" onclick="handleClick(this.textContent)">I</div>
+            <div class="button" onclick="handleClick(this.textContent)">J</div>
+            <div class="button" onclick="handleClick(this.textContent)">K</div>
+            <div class="button" onclick="handleClick(this.textContent)">L</div>
+            <div class="button" onclick="handleClick(this.textContent)">M</div>
+            <div class="button" onclick="handleClick(this.textContent)">N</div>
+            <div class="button" onclick="handleClick(this.textContent)">O</div>
+            <div class="button" onclick="handleClick(this.textContent)">P</div>
+            <div class="button" onclick="handleClick(this.textContent)">Q</div>
+            <div class="button" onclick="handleClick(this.textContent)">R</div>
+            <div class="button" onclick="handleClick(this.textContent)">S</div>
+            <div class="button" onclick="handleClick(this.textContent)">T</div>
+            <div class="button" onclick="handleClick(this.textContent)">U</div>
+            <div class="button" onclick="handleClick(this.textContent)">V</div>
+            <div class="button" onclick="handleClick(this.textContent)">W</div>
+            <div class="button" onclick="handleClick(this.textContent)">X</div>
+            <div class="button" onclick="handleClick(this.textContent)">Y</div>
+            <div class="button" onclick="handleClick(this.textContent)">Z</div>
+            <div class="button" onclick="handleClick(this.textContent)">Å</div>
+            <div class="button" onclick="handleClick(this.textContent)">Ä</div>
+            <div class="button" onclick="handleClick(this.textContent)">Ö</div>
+        </div>
+    </body>
+    <script src="hang.js"></script>
+</html>
